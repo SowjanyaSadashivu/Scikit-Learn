@@ -3,21 +3,24 @@ This folder contains files and folder related to regression models with scikit l
 Difference between fit_transform and transform. <br>
 * fit:
 
-** The fit method is typically used to compute and learn parameters from the data.
-** For example, when using a standard scaler, it calculates the mean and standard deviation of the data to standardize it.
-** The fit method is used on the training data to calculate these parameters.
-** After fitting, the transformer object retains the learned parameters.
+** 
+*  The fit method is typically used to compute and learn parameters from the data.
+*  For example, when using a standard scaler, it calculates the mean and standard deviation of the data to standardize it.
+*  The fit method is used on the training data to calculate these parameters.
+*  After fitting, the transformer object retains the learned parameters.
 
 * fit_transform:
 
-** The fit_transform method combines both fitting and transforming in a single step.
-** It calculates the parameters on the training data just like fit, but it also applies the transformation to the data.
-** The result of fit_transform is the transformed data, which you can directly use for further processing or modeling.
-** This method is often used on the training data, and the same parameters are later used to transform the test or validation data to ensure consistency.
+** 
+*  The fit_transform method combines both fitting and transforming in a single step.
+*  It calculates the parameters on the training data just like fit, but it also applies the transformation to the data.
+*  The result of fit_transform is the transformed data, which you can directly use for further processing or modeling.
+*  This method is often used on the training data, and the same parameters are later used to transform the test or validation data to ensure consistency.
 
 * transform:
 
-**  transform method is applied on test data, which uses the parameters from fitting on train data.
+**  
+*  transform method is applied on test data, which uses the parameters from fitting on train data.
 
 
 ## Why do we use transform and not fit_transform on test data?
