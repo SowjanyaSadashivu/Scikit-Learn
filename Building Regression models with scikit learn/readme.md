@@ -19,7 +19,7 @@ Difference between fit_transform and transform. <br>
 *  The result of fit_transform is the transformed data, which you can directly use for further processing or modeling.
 *  This method is often used on the training data, and the same parameters are later used to transform the test or validation data to ensure consistency.
 
-* transform:
+### transform:
 
 **  
 
