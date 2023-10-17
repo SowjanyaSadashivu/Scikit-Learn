@@ -25,3 +25,14 @@ Scikit-learn is a popular open-source machine learning library for Python. provi
 *  Apply different classification models on the preprocessed data, to identify the best model to get most accurate results.
 *  Of all the model, SVM performed well with 80% accuracy on train data and 79% accuracy on test data.
 
+#### 3. [Building Regression models with scikit-learn](https://github.com/SowjanyaSadashivu/Scikit-Learn/tree/8682dd7f8d7a47306fe9d2009f5bd39683e0ab7b/Building%20Regression%20models%20with%20scikit%20learn)
+
+* A PDF file that explains regression models in detail. Difference between classification and regression for some of the regression models.
+* Assumptions of regression model.
+* Risks involved in regression and how to mitigate those risks.
+* Different objective functions, metrics, their advantage and disadvantages.
+* Dealing with categorical and numerical data.
+* Regularization techniques like: Lasso, Ridge and Elastic Net and when to use them.
+* various regression models like: Support vector regressor, Nearest neighbor regressor, SGD regressor, DT and others with detailed explination and coding example in jupyter notebook.
+* Among the regression models, LARS gave the best results on automobile dataset with ~82% accuracy on training data and ~91% score on test data.
+
